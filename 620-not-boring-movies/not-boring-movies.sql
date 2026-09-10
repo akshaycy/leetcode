@@ -1,5 +1,5 @@
 -- Write your PostgreSQL query statement below
 SELECT * FROM Cinema
 WHERE id % 2 != 0
-AND description NOT IN ('boring')
+AND description != 'boring'
 ORDER BY rating DESC;
